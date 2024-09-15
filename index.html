@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شركة سياحية</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-800">
+
+    <header class="bg-blue-600 text-white">
+        <div class="container mx-auto flex justify-between items-center p-4">
+            <div class="text-2xl font-bold">شعار الشركة</div>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="hover:underline">الصفحة الرئيسية</a></li>
+                    <li><a href="#" class="hover:underline">خدماتنا</a></li>
+                    <li><a href="#" class="hover:underline">الوجهات السياحية</a></li>
+                    <li><a href="#" class="hover:underline">الحجوزات</a></li>
+                    <li><a href="#" class="hover:underline">المدونة</a></li>
+                    <li><a href="#" class="hover:underline">اتصل بنا</a></li>
+                </ul>
+            </nav>
+            <button class="bg-yellow-500 text-white px-4 py-2 rounded hover:bg-yellow-600">احجز الآن</button>
+        </div>
+    </header>
+
+    <main>
+        <div class="relative bg-cover bg-center h-64" style="background-image: url('https://source.unsplash.com/featured/?travel');">
+            <div class="absolute inset-0 bg-black opacity-30"></div>
+            <div class="container mx-auto relative text-center text-white py-16">
+                <h1 class="text-4xl font-bold">مرحبًا بك في أفضل الوجهات السياحية</h1>
+                <p class="mt-2">اكتشف مغامرات جديدة مع خدماتنا الرائعة!</p>
+            </div>
+        </div>
+
+        <div class="container mx-auto p-4">
+            <div class="my-8">
+                <h2 class="text-2xl font-bold text-center">بحث عن الرحلات أو الفنادق</h2>
+                <form class="flex flex-col md:flex-row md:space-x-4 mt-4">
+                    <input type="text" placeholder="الموقع" class="flex-1 px-4 py-2 border rounded">
+                    <input type="date" class="flex-1 px-4 py-2 border rounded">
+                    <input type="number" placeholder="عدد الأشخاص" class="flex-1 px-4 py-2 border rounded">
+                    <button class="bg-blue-600 text-white px-4 py-2 rounded mt-4 md:mt-0">بحث</button>
+                </form>
+            </div>
+        </div>
+
+        <section class="bg-gray-100 py-16">
+            <div class="container mx-auto text-center">
+                <h2 class="text-3xl font-bold mb-6">عن الشركة</h2>
+                <p class="text-gray-700 mb-4">
+                    تأسست شركتنا عام 2010 بهدف توفير تجربة سياحية فريدة ومميزة. نحن ملتزمون بتقديم أفضل الخدمات لعملائنا، مع التركيز على الجودة والاحترافية.
+                </p>
+                <p class="text-gray-700 mb-4">
+                    مهمتنا هي تقديم تجارب سفر لا تُنسى، حيث نسعى لتحقيق رضا عملائنا من خلال توفير خيارات متنوعة تناسب جميع الأذواق. رؤيتنا هي أن نكون الخيار الأول للسياحة في المنطقة، من خلال الابتكار وتقديم خدمات عالية الجودة.
+                </p>
+            </div>
+        
+            <div class="container mx-auto mt-10">
+                <h3 class="text-2xl font-bold text-center mb-6">فريق العمل لدينا</h3>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="bg-white p-4 rounded-lg shadow-md">
+                        <img src="https://source.unsplash.com/random/300x200?person" alt="فريق العمل" class="rounded-t-lg w-full">
+                        <h4 class="font-semibold mt-2">اسم الموظف 1</h4>
+                        <p class="text-gray-600">الوصف الوظيفي</p>
+                    </div>
+                    <div class="bg-white p-4 rounded-lg shadow-md">
+                        <img src="https://source.unsplash.com/random/300x200?person" alt="فريق العمل" class="rounded-t-lg w-full">
+                        <h4 class="font-semibold mt-2">اسم الموظف 2</h4>
+                        <p class="text-gray-600">الوصف الوظيفي</p>
+                    </div>
+                    <div class="bg-white p-4 rounded-lg shadow-md">
+                        <img src="https://source.unsplash.com/random/300x200?person" alt="فريق العمل" class="rounded-t-lg w-full">
+                        <h4 class="font-semibold mt-2">اسم الموظف 3</h4>
+                        <p class="text-gray-600">الوصف الوظيفي</p>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="container mx-auto mt-10 text-center">
+                <h3 class="text-2xl font-bold mb-6">أنشطتنا وخدماتنا</h3>
+                <p class="text-gray-700 mb-4">
+                    نقدم مجموعة متنوعة من الأنشطة والخدمات السياحية التي تلبي احتياجات عملائنا. إليك بعض مقاطع الفيديو التي تعرض ما نقدمه:
+                </p>
+                <div class="flex justify-center">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="فيديو تعريفي" frameborder="0" allowfullscreen class="rounded-lg shadow-md"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-white py-16">
+            <div class="container mx-auto text-center mb-10">
+                <h2 class="text-3xl font-bold mb-6">الوجهات السياحية</h2>
+                <p class="text-gray-700 mb-4">استكشف أفضل الوجهات السياحية التي نقدمها.</p>
+            </div>
+        
+            <div class="container mx-auto">
+                <h3 class="text-2xl font-bold text-center mb-6">توصيات حسب الفئة</h3>
+                <div class="flex justify-center space-x-4 mb-10">
+                    <button class="bg-blue-500 text-white px-4 py-2 rounded">عائلات</button>
+                    <button class="bg-green-500 text-white px-4 py-2 rounded">مغامرات</button>
+                    <button class="bg-yellow-500 text-white px-4 py-2 rounded">سياحة فاخرة</button>
+                </div>
+        
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="bg-gray-100 rounded-lg shadow-md">
+                        <img src="https://source.unsplash.com/featured/?beach" alt="شاطئ" class="rounded-t-lg w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h4 class="font-semibold text-xl">شاطئ الأحلام</h4>
+                            <p class="text-gray-600">استمتع بأشعة الشمس والرمال البيضاء في هذا الشاطئ الخلاب.</p>
+                            <a href="#" class="text-blue-500 hover:underline">عرض التفاصيل</a>
+                        </div>
+                    </div>
+                    <div class="bg-gray-100 rounded-lg shadow-md">
+                        <img src="https://source.unsplash.com/featured/?mountain" alt="جبال" class="rounded-t-lg w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h4 class="font-semibold text-xl">جبال الألب</h4>
+                            <p class="text-gray-600">مغامرات التزلج والأنشطة الجبلية في قلب الطبيعة.</p>
+                            <a href="#" class="text-blue-500 hover:underline">عرض التفاصيل</a>
+                        </div>
+                    </div>
+                    <div class="bg-gray-100 rounded-lg shadow-md">
+                        <img src="https://source.unsplash.com/featured/?city" alt="مدينة" class="rounded-t-lg w-full h-48 object-cover">
+                        <div class="p-4">
+                            <h4 class="font-semibold text-xl">مدينة الأضواء</h4>
+                            <p class="text-gray-600">استكشف الثقافة والفن في هذه المدينة الرائعة.</p>
+                            <a href="#" class="text-blue-500 hover:underline">عرض التفاصيل</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-gray-100 py-16">
+            <div class="container mx-auto text-center mb-10">
+                <h2 class="text-3xl font-bold mb-6">خدماتنا</h2>
+                <p class="text-gray-700 mb-4">نقدم مجموعة متنوعة من الخدمات لتلبية احتياجاتك السياحية.</p>
+            </div>
+        
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-semibold mb-4">حجوزات الفنادق</h3>
+                    <p class="text-gray-600 mb-4">
+                        نحن نقدم لك خيارات واسعة من الفنادق الفاخرة والرخيصة في جميع الوجهات السياحية. استمتع بإقامة مريحة مع أفضل الخدمات.
+                    </p>
+                    <a href="#" class="text-blue-500 hover:underline">اكتشف المزيد</a>
+                </div>
+        
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-semibold mb-4">تنظيم الجولات السياحية</h3>
+                    <p class="text-gray-600 mb-4">
+                        نساعدك في اكتشاف معالم المدينة من خلال جولات سياحية مصممة خصيصًا لتناسب اهتماماتك. استمتع بتجارب فريدة وممتعة.
+                    </p>
+                    <a href="#" class="text-blue-500 hover:underline">اكتشف المزيد</a>
+                </div>
+        
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-semibold mb-4">حجوزات الطيران</h3>
+                    <p class="text-gray-600 mb-4">
+                        احجز تذاكر الطيران بأسعار تنافسية مع خيارات متنوعة تناسب جميع المسافرين. نحن نعمل على تسهيل رحلتك من البداية إلى النهاية.
+                    </p>
+                    <a href="#" class="text-blue-500 hover:underline">اكتشف المزيد</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-white py-16">
+            <div class="container mx-auto text-center mb-10">
+                <h2 class="text-3xl font-bold mb-6">قسم الحجز</h2>
+                <p class="text-gray-700 mb-4">يرجى ملء النموذج أدناه لإجراء حجزك بسهولة.</p>
+            </div>
+        
+            <div class="container mx-auto">
+                <form class="bg-gray-100 rounded-lg p-8 shadow-md">
+                    <div class="mb-6">
+                        <label for="destination" class="block text-left font-semibold mb-2">اختيار الوجهة أو الخدمة</label>
+                        <select id="destination" class="w-full p-2 border rounded">
+                            <option value="" disabled selected>اختر الوجهة أو الخدمة</option>
+                            <option value="beach">شاطئ الأحلام</option>
+                            <option value="mountains">جبال الألب</option>
+                            <option value="city">مدينة الأضواء</option>
+                            <option value="hotel">حجز فندق</option>
+                        </select>
+                    </div>
+        
+                    <div class="mb-6">
+                        <label for="name" class="block text-left font-semibold mb-2">الاسم الكامل</label>
+                        <input type="text" id="name" class="w-full p-2 border rounded" placeholder="أدخل اسمك الكامل" required>
+                    </div>
+        
+                    <div class="mb-6">
+                        <label for="email" class="block text-left font-semibold mb-2">البريد الإلكتروني</label>
+                        <input type="email" id="email" class="w-full p-2 border rounded" placeholder="أدخل بريدك الإلكتروني" required>
+                    </div>
+        
+                    <div class="mb-6">
+                        <label for="phone" class="block text-left font-semibold mb-2">رقم الهاتف</label>
+                        <input type="tel" id="phone" class="w-full p-2 border rounded" placeholder="أدخل رقم هاتفك" required>
+                    </div>
+        
+                    <div class="mb-6">
+                        <label for="travel-dates" class="block text-left font-semibold mb-2">تواريخ السفر ومدة الإقامة</label>
+                        <input type="text" id="travel-dates" class="w-full p-2 border rounded" placeholder="أدخل تواريخ السفر (مثال: 2024-09-01 إلى 2024-09-10)" required>
+                    </div>
+        
+                    <div class="mb-6">
+                        <label for="payment" class="block text-left font-semibold mb-2">خيارات الدفع الإلكتروني</label>
+                        <select id="payment" class="w-full p-2 border rounded">
+                            <option value="" disabled selected>اختر طريقة الدفع</option>
+                            <option value="credit-card">بطاقة ائتمانية</option>
+                            <option value="paypal">باي بال</option>
+                            <option value="bank-transfer">تحويل بنكي</option>
+                        </select>
+                    </div>
+        
+                    <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">إجراء الحجز</button>
+                </form>
+            </div>
+        </section>
+        <section class="bg-gray-100 py-16">
+            <div class="container mx-auto text-center mb-10">
+                <h2 class="text-3xl font-bold mb-6">المدونة</h2>
+                <p class="text-gray-700 mb-4">اكتشف مقالاتنا المفيدة حول السفر والسياحة.</p>
+            </div>
+        
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-semibold mb-4">نصائح السفر</h3>
+                    <p class="text-gray-600 mb-4">
+                        تعرف على أهم النصائح لتسهيل رحلتك وتجعلها أكثر متعة. من التخطيط إلى التعبئة، لدينا كل ما تحتاجه.
+                    </p>
+                    <a href="#" class="text-blue-500 hover:underline">اقرأ المزيد</a>
+                </div>
+        
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-semibold mb-4">أفضل الوجهات</h3>
+                    <p class="text-gray-600 mb-4">
+                        اكتشف أفضل الوجهات السياحية التي يجب عليك زيارتها هذا العام، واكتشف ما يميز كل منها.
+                    </p>
+                    <a href="#" class="text-blue-500 hover:underline">اقرأ المزيد</a>
+                </div>
+        
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-semibold mb-4">تجارب العملاء</h3>
+                    <p class="text-gray-600 mb-4">
+                        اقرأ تجارب عملائنا في رحلاتهم معنا. اكتشف كيف ساعدناهم في تحقيق تجارب سفر لا تُنسى.
+                    </p>
+                    <a href="#" class="text-blue-500 hover:underline">اقرأ المزيد</a>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="bg-white py-16">
+            <div class="container mx-auto text-center mb-10">
+                <h2 class="text-3xl font-bold mb-6">آراء العملاء</h2>
+                <p class="text-gray-700 mb-4">إليك بعض التجارب الإيجابية من عملائنا السابقين.</p>
+            </div>
+        
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-gray-100 rounded-lg p-6 shadow-md">
+                    <p class="text-gray-600 italic mb-4">
+                        "كانت تجربتي مع هذه الشركة رائعة! كل شيء كان منظمًا بشكل ممتاز، واستمتعت بكل لحظة."
+                    </p>
+                    <h4 class="font-semibold">أحمد العلي</h4>
+                    <p class="text-gray-500">رحلة إلى تركيا</p>
+                </div>
+        
+                <div class="bg-gray-100 rounded-lg p-6 shadow-md">
+                    <p class="text-gray-600 italic mb-4">
+                        "أوصي بشدة بهذه الشركة! فريق عملهم محترف للغاية، وكانت الخدمة ممتازة."
+                    </p>
+                    <h4 class="font-semibold">سارة محمد</h4>
+                    <p class="text-gray-500">رحلة إلى باريس</p>
+                </div>
+        
+                <div class="bg-gray-100 rounded-lg p-6 shadow-md">
+                    <p class="text-gray-600 italic mb-4">
+                        "لقد كانت تجربة سفر لا تُنسى! أشكرهم على كل ما قدموه لي."
+                    </p>
+                    <h4 class="font-semibold">علي حسن</h4>
+                    <p class="text-gray-500">رحلة إلى دبي</p>
+                </div>
+            </div>
+        </section>
+
+        
+        <section class="bg-gray-100 py-16">
+            <div class="container mx-auto text-center mb-10">
+                <h2 class="text-3xl font-bold mb-6">اتصل بنا</h2>
+                <p class="text-gray-700 mb-4">نحن هنا لمساعدتك! يرجى ملء النموذج أدناه للتواصل معنا.</p>
+            </div>
+        
+            <div class="container mx-auto grid grid-cols-1 md:grid-cols-2 gap-10">
+                <div>
+                    <form class="bg-white p-6 rounded-lg shadow-md">
+                        <div class="mb-4">
+                            <label for="name" class="block text-left font-semibold mb-2">الاسم الكامل</label>
+                            <input type="text" id="name" class="w-full p-2 border rounded" placeholder="أدخل اسمك" required>
+                        </div>
+        
+                        <div class="mb-4">
+                            <label for="email" class="block text-left font-semibold mb-2">البريد الإلكتروني</label>
+                            <input type="email" id="email" class="w-full p-2 border rounded" placeholder="أدخل بريدك الإلكتروني" required>
+                        </div>
+        
+                        <div class="mb-4">
+                            <label for="message" class="block text-left font-semibold mb-2">رسالتك</label>
+                            <textarea id="message" class="w-full p-2 border rounded" rows="4" placeholder="اكتب رسالتك هنا" required></textarea>
+                        </div>
+        
+                        <button type="submit" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">إرسال</button>
+                    </form>
+                </div>
+        
+                <div>
+                    <h3 class="text-2xl font-bold mb-4">معلومات الاتصال</h3>
+                    <p class="text-gray-600 mb-2">الهاتف: +123 456 7890</p>
+                    <p class="text-gray-600 mb-2">البريد الإلكتروني: info@tourcompany.com</p>
+                    <h4 class="text-xl font-bold mt-6 mb-4">تابعونا على:</h4>
+                    <div class="flex justify-center space-x-4">
+                        <a href="#" class="text-blue-500 hover:underline">فيسبوك</a>
+                        <a href="#" class="text-blue-500 hover:underline">تويتر</a>
+                        <a href="#" class="text-blue-500 hover:underline">إنستغرام</a>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="container mx-auto mt-10">
+                <h3 class="text-2xl font-bold text-center mb-4">موقعنا على الخريطة</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345090023!2d144.95373531531618!3d-37.81627997975185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f1e0e45%3A0x5045675218ceed25!2sYour%20Company%20Name!5e0!3m2!1sen!2sus!4v1638180484082!5m2!1sen!2sus" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto text-center">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-4">
+                <div>
+                    <h4 class="font-semibold mb-2">روابط سريعة</h4>
+                    <ul>
+                        <li><a href="#" class="hover:underline">الصفحة الرئيسية</a></li>
+                        <li><a href="#" class="hover:underline">خدماتنا</a></li>
+                        <li><a href="#" class="hover:underline">الوجهات السياحية</a></li>
+                        <li><a href="#" class="hover:underline">المدونة</a></li>
+                        <li><a href="#" class="hover:underline">اتصل بنا</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-semibold mb-2">مواقع التواصل الاجتماعي</h4>
+                    <div class="flex justify-center space-x-4">
+                        <a href="#" class="hover:text-yellow-500"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="hover:text-yellow-500"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="hover:text-yellow-500"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="hover:text-yellow-500"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <p class="text-gray-400">&copy; 2024 شركة سياحية. جميع الحقوق محفوظة.</p>
+        </div>
+    </footer>
+</body>
+</html>
